@@ -298,9 +298,8 @@ printl();
 printf("\n| %.24s    |\n",ctime(&now));
 printf("| Total:%4d                  |\n",total);
 printf("| cash:%4d                   |\n",cash);
-printf("| change:%4d                 |\n",cash-total);
-//for(int j=0;j<=c-1;j++){
-//printf("| %13s---------%2d    |\n",cost.[j],cost.money[j]);}
+printf("| change:%3d                  |\n",cash-total);
+
 for(int k=0;k<=i-1;k++){
     printf("| %9s--------------%2d   |\n",cost.Drink[k],cost.money[k]);
     printf("|  %11s                |\n",cost.sweetc[k]);
